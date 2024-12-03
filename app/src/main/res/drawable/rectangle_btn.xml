@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 배경 색상 -->
+            <solid android:color="@color/main_purple"/>
+            <!-- 코너 라운드 둥글기 -->
+            <corners android:radius="5dp"/>
+            <!-- 코너 라운드 색상 -->
+            <stroke
+                android:width="1.4dp"
+                android:color="@color/main_purple"/>
+        </shape>
+    </item>
+
+
+
+</selector>

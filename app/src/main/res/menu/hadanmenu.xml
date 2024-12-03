@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/i_onlyhome"
+        android:title="홈"
+        android:icon="@drawable/i_onlyhome"/>
+    <item
+        android:id="@+id/i_onlycamera"
+        android:title="영상 보기"
+        android:icon="@drawable/i_onlycamera"/>
+    <item
+        android:id="@+id/i_onlywindow"
+        android:title="창문 관리"
+        android:icon="@drawable/i_onlywindow"/>
+    <item
+        android:id="@+id/i_onlysetting"
+        android:title="설정"
+        android:icon="@drawable/i_onlysetting"/>
+</menu>

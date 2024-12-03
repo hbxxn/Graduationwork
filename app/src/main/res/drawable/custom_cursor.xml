@@ -1,0 +1,9 @@
+<!-- res/drawable/custom_cursor.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/main_purple"/> <!-- 여기서 색상 리소스를 참조 -->
+            <size android:width="2dp"/> <!-- 커서 두께 -->
+        </shape>
+    </item>
+</layer-list>

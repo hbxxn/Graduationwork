@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo_iv1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:foregroundGravity="center_vertical|center"
+                android:src="@drawable/logo2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical|center"
+                android:text="나혼자 지킴이"
+                android:textAlignment="center"
+                android:textColor="#2B28B6"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/edit_id"
+                android:layout_width="284dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle"
+                android:drawableStart="@drawable/custom_ic_person"
+                android:drawableLeft="@drawable/custom_ic_person"
+                android:ems="10"
+                android:hint="@string/hint_id"
+                android:inputType="text"
+                android:textCursorDrawable="@drawable/custom_cursor"
+                android:paddingLeft="12dp"
+                android:textSize="16dp" />
+
+
+            <EditText
+                android:id="@+id/edit_passwd"
+                android:layout_width="284dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/rectangle"
+                android:drawableStart="@drawable/custom_ic_https"
+                android:drawableLeft="@drawable/custom_ic_https"
+                android:ems="10"
+                android:textCursorDrawable="@drawable/custom_cursor"
+                android:hint="@string/hint_password"
+                android:maxLength="8"
+                android:inputType="textPassword"
+                android:paddingLeft="12dp"
+                android:textAllCaps="true"
+                android:textSize="16dp" />
+
+            <CheckBox
+                android:id="@+id/rememberMeCheckbox"
+                android:layout_width="284dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:buttonTint="@color/slide_btn2"
+                android:checked="true"
+                android:text="로그인 기억하기" />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="284dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/navi_btn2"
+                android:text="@string/btn_login"
+                android:textColor="@color/bgcolor" />
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="284dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/navi_btn1"
+                android:text="@string/btn_register1"
+                android:textColor="@color/slide_btn2" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

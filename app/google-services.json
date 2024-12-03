@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "855439482698",
+    "firebase_url": "https://esp32-cam-bed7a-default-rtdb.firebaseio.com",
+    "project_id": "esp32-cam-bed7a",
+    "storage_bucket": "esp32-cam-bed7a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855439482698:android:216a300881b6a213a36bb3",
+        "android_client_info": {
+          "package_name": "com.example.setting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102956202480571850549",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7RFZvK_bjkiXuNWOefAuYrKSSNqRxjso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102956202480571850549",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
